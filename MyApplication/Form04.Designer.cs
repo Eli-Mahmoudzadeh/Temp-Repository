@@ -27,24 +27,32 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.SuspendLayout();
+            this.nameLabel = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // nameLabel
+            // 
+            this.nameLabel.AutoSize = true;
+            this.nameLabel.Location = new System.Drawing.Point(12, 9);
+            this.nameLabel.Name = "nameLabel";
+            this.nameLabel.Size = new System.Drawing.Size(73, 13);
+            this.nameLabel.TabIndex = 0;
+            this.nameLabel.Text = "Mitra Safari";
+            // 
+            // Form04
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(484, 461);
+            this.Controls.Add(this.nameLabel);
+            this.Location = new System.Drawing.Point(0, 0);
+            this.Name = "Form04";
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
-			this.AutoScaleDimensions =
-				new System.Drawing.SizeF(7F, 13F);
-
-			this.AutoScaleMode =
-				System.Windows.Forms.AutoScaleMode.Font;
-
-			this.ClientSize =
-				new System.Drawing.Size(484, 461);
-
-			this.Location =
-				new System.Drawing.Point(0, 0);
-
-			this.Name = "Form04";
-
-			this.ResumeLayout(false);
 		}
-		#endregion /Windows Form Designer generated code
-	}
+        #endregion /Windows Form Designer generated code
+
+        private System.Windows.Forms.Label nameLabel;
+    }
 }
