@@ -38,9 +38,9 @@
                 | System.Drawing.FontStyle.Underline))));
             this.NameLabel.Location = new System.Drawing.Point(38, 170);
             this.NameLabel.Name = "NameLabel";
-            this.NameLabel.Size = new System.Drawing.Size(404, 18);
+            this.NameLabel.Size = new System.Drawing.Size(393, 18);
             this.NameLabel.TabIndex = 0;
-            this.NameLabel.Text = "Elnaz Mahmoudzadeh have made some changes";
+            this.NameLabel.Text = "Elnaz Mahmoudzadeh has made some changes";
             // 
             // Form01
             // 
