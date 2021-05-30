@@ -37,7 +37,7 @@
             this.NameLabel.Font = new System.Drawing.Font("Verdana", 11F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
                 | System.Drawing.FontStyle.Underline))));
             this.NameLabel.Location = new System.Drawing.Point(38, 170);
-            this.NameLabel.Name = "NameLabel";
+            this.NameLabel.Name = "nameLabel";
             this.NameLabel.Size = new System.Drawing.Size(393, 18);
             this.NameLabel.TabIndex = 0;
             this.NameLabel.Text = "Elnaz Mahmoudzadeh has made some changes";
